@@ -1,0 +1,36 @@
+
+.login-form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 20%;
+    padding: 200px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-form{
+    position: relative;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-login{
+    position: relative;
+    font-size: 15px;
+    padding: 10px 25px;
+    background: linear-gradient(270deg, rgba(106, 38, 205, 1) 0%, rgba( 0, 174, 239, 1) 100%);
+    border: none;   
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+}

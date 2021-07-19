@@ -1,0 +1,31 @@
+.top-menu{
+    position: relative;
+    width: 100%;
+    padding: 25px 50px;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-section{
+    position: relative;
+}
+
+.right-section{
+    position: relative; 
+    display: flex;
+    align-items: center;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
