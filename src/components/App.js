@@ -5,10 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { TopMenu } from "./TopMenu";
 import HomePage from "../pages/HomePage"
 import LoginPage from '../pages/Login'
-
-const RegisterPage = () => {
-    return <h1>RegisterPage</h1>
-}
+import RegisterPage from "../pages/Register"
 
 function App() {
     
